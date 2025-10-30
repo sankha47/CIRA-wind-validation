@@ -24,7 +24,7 @@ This product integrates data from five different sources to generate a mid-level
 
 ---
 
-## 🧩 Cite this work
+## 📚 Cite this work
 
 If you use this code or functionality in your research, please cite it as follows:
 
