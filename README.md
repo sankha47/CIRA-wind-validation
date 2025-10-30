@@ -3,7 +3,7 @@
 This repository contains a Python workflow to compute and visualize **surface wind fields** around the **tropical cyclone (TC) center** from **WRF model UPP outputs**
 to validate it with CIRA surface wind data 
 The core function `calculate_center_following_wind_wrf()` in **CIRA_WRF_validation.py** extracts wind components, computes wind speed in knots, and produces center-following wind plots over time.
-**wrf_cira_wind_validation.png** shows a sample plot from this func.
+**`wrf_cira_wind_validation.png`** shows a sample plot from this func.
 
 ---
 
