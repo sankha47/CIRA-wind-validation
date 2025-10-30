@@ -37,7 +37,7 @@ pip install numpy pandas xarray matplotlib cartopy
 - `numpy` for numerical operations.
 - WRF model output data (e.g., `ugrd10m`, `vgrd10m`, latitude, longitude, and time data).
 - WRF track date (lat, lon position)
-
+---
 ## Installation
 
 To use this code, you can either clone the repository or download the script directly.
@@ -47,6 +47,7 @@ To use this code, you can either clone the repository or download the script dir
 ```bash
 git clone https://github.com/sankha47/CIRA-wind-validation.git
 
+---
 ## Cite this work
 
 If you use this code or functionality in your research, please reference it as follows:
