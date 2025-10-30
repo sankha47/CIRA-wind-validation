@@ -3,8 +3,8 @@
 This repository contains a Python workflow to compute and visualize **surface wind fields** around the **tropical cyclone (TC) center** from **WRF model UPP outputs**
 to validate it with CIRA surface wind data 
 The core function `calculate_center_following_wind_wrf()` in **CIRA_WRF_validation.py** extracts wind components, computes wind speed in knots, and produces center-following wind plots over time.
+**wrf_cira_wind_validation.png** shows a sample plot from this func.
 
-`wrf_cira_wind_validation.png` shows a example plot from this func.
 ---
 
 ## 🚀 Features
@@ -62,4 +62,6 @@ git clone https://github.com/sankha47/CIRA-wind-validation.git
 ## CIRA: 
 [CIRA](https://rammb-data.cira.colostate.edu/tc_realtime) Multi-Platform Tropical Cyclone Surface Wind Analysis:
 This product integrates data from five different sources to generate a mid-level wind analysis near the 700 hPa level, using a variational method outlined by [Knaff and DeMaria (2006)](https://rammb-data.cira.colostate.edu/tc_realtime/images/mpsw.pdf). The resulting wind fields at this level are then adjusted to the surface using a straightforward single-column approach. Over the ocean, an adjustment factor is applied that varies with the radius from the cyclone center, ranging from 0.9 to 0.7, and the winds are rotated 20 degrees toward low pressure. On land, the ocean-derived winds are further reduced by 20% and rotated an additional 20 degrees toward low pressure.
+
+`**CIRA_sample_TC_hudhud_201410120000_swhr.gif**` shows a sample CIRA surface wind image for TC Hudhud (2014).
 
