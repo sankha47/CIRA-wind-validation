@@ -46,3 +46,10 @@ To use this code, you can either clone the repository or download the script dir
 
 ```bash
 git clone https://github.com/sankha47/CIRA-wind-validation.git
+
+## Cite this work
+
+If you use this code or functionality in your research, please reference it as follows:
+
+> Sankhasubhra Chakraborty. (2025). *Center-following Wind Speed Extraction and Visualization from WRF UPP Output to validate with CIRA data*. GitHub Repository. Available at: [https://github.com/sankha47/CIRA-wind-validation](https://github.com/sankha47/CIRA-wind-validation).
+
