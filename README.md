@@ -18,6 +18,12 @@ The core function `calculate_center_following_wind_wrf()` extracts wind componen
 
 ---
 
+# CIRA: 
+[CIRA](https://rammb-data.cira.colostate.edu/tc_realtime) Multi-Platform Tropical Cyclone Surface Wind Analysis:
+This product integrates data from five different sources to generate a mid-level wind analysis near the 700 hPa level, using a variational method outlined by [Knaff and DeMaria (2006)](https://rammb-data.cira.colostate.edu/tc_realtime/images/mpsw.pdf). The resulting wind fields at this level are then adjusted to the surface using a straightforward single-column approach. Over the ocean, an adjustment factor is applied that varies with the radius from the cyclone center, ranging from 0.9 to 0.7, and the winds are rotated 20 degrees toward low pressure. On land, the ocean-derived winds are further reduced by 20% and rotated an additional 20 degrees toward low pressure.
+
+---
+
 ## Cite this work
 
 If you use this code or functionality in your research, please cite it as follows:
