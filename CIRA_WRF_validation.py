@@ -97,7 +97,7 @@ wrf_lons = wrf_ds.lon
 # calculate the wrf resolution
 wrf_res = (wrf_lats[1]-wrf_lats[0]).values
 
-
+# read wrf track
 tracks_df = pd.read_csv('./wrf_track.csv')
 track_lat, track_lon = tracks_df['lat'].values, tracks_df['lon'].values
 
