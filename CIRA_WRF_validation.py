@@ -88,7 +88,7 @@ def calculate_center_following_wind_wrf(wrf_ds, wrf_lats, wrf_lons, wrf_res, tra
 
 #%%
 # read WRF UPP (Unified Post Processor) output
-wrf_path = '/media/spt/DATA/RADAR_PROJECT/model_outputs/hudhud/WDM6/CNTL/2014101100/hudhud_cntl.nc'
+wrf_path = './wrf_upp_output.nc'
 wrf_ds = xr.open_dataset(wrf_path)
 wrf_time = wrf_ds.time
 wrf_lats = wrf_ds.lat
@@ -98,7 +98,7 @@ wrf_lons = wrf_ds.lon
 wrf_res = (wrf_lats[1]-wrf_lats[0]).values
 
 
-tracks_df = pd.read_csv('/media/spt/DATA/RADAR_PROJECT/model_outputs/hudhud/WDM6/CNTL/2014101100/track_d02.csv')
+tracks_df = pd.read_csv('./wrf_track.csv')
 track_lat, track_lon = tracks_df['lat'].values, tracks_df['lon'].values
 
 #%% make the colorbar matching which CIRA
