@@ -23,7 +23,7 @@ The core function `calculate_center_following_wind_wrf()` in **CIRA_WRF_validati
 
 If you use this code or functionality in your research, please cite it as follows:
 
-> Chakraborty, S. (2025). *Center-following Wind Speed Extraction and Visualization from WRF UPP Output to validate with CIRA data*. GitHub Repository. Available at: [(https://zenodo.org/badge/1086495638.svg)](https://doi.org/10.5281/zenodo.18207518)
+> Chakraborty, S. (2025). *Center-following Wind Speed Extraction and Visualization from WRF UPP Output to validate with CIRA data*. GitHub Repository. [10.5281/zenodo.18207519](10.5281/zenodo.18207519). Available at: [(https://zenodo.org/badge/1086495638.svg)](https://doi.org/10.5281/zenodo.18207518)
 
 
 ---
