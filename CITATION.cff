@@ -3,7 +3,7 @@ message: "If you use this software, please cite it."
 authors:
   - family-names: Chakraborty
     given-names: Sankhasubhra
-title: Center-following Wind Speed Extraction and Visualization from WRF UPP Output
+title: Center-following Wind Speed Extraction and Visualization from WRF UPP Output to validate with CIRA data
 version: 1.0.0
 doi: 10.5281/zenodo.18207519
 url: https://github.com/sankha47/CIRA-wind-validation
