@@ -25,7 +25,6 @@ If you use this code or functionality in your research, please cite it as follow
 
 > Chakraborty, S. (2025). *Center-following Wind Speed Extraction and Visualization from WRF UPP Output to validate with CIRA data*. GitHub Repository. Available at: [(https://zenodo.org/badge/1086495638.svg)](https://doi.org/10.5281/zenodo.18207518)
 
-.
 
 ---
 
